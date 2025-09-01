@@ -7,12 +7,6 @@ https://clockbench.ai
 This is a public dataset that includes 10 clocks, out of 180 clocks available in the private dataset.
 Full dataset if intentionally kept private in order to data leaking into models training.
 
-## Files Structure
-/images - includes 10 sample images in .png format
-/input - includes 2 JSON files containing sample questions and sample answers
-/output - folder for storing evaluation outputs
-/grading - folder for storing evaluation outputs
-
 ## Setup Instructions
 
 ```bash
@@ -21,7 +15,7 @@ pip install -e .
 ```
 The script depends on `requests`. If you prefer not to use `pip install -e .`, you can alternatively run `pip install requests` directly.
 
-# Run Instructions
+## Run Instructions
 Benchmark includes two scripts designed to be run consecutively:
 
 ```bash
