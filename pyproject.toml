@@ -1,0 +1,14 @@
+[project]
+name = "clockbench"
+version = "1.0"
+description = "ClockBench - Visual Reasoning AI Benchmark"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Alek Safar (Oleg Chichigin)" }]
+license = { text = "MIT" }
+dependencies = [
+    "requests>=2.31.0"
+]
+
+[project.urls]
+"Homepage" = "https://clockbench.ai/"

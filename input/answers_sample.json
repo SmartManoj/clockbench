@@ -1,0 +1,62 @@
+{
+  "white_1": {
+    "answer_time": "{\n  \"valid\": true,\n  \"hours\": 12,\n  \"minutes\": 25,\n  \"seconds\": 15,\n  \"date\": false,\n  \"month\": false,\n  \"weekday\": false\n }",
+    "answer_shift": "{\n  \"valid\": true,\n  \"hours\": 14,\n  \"minutes\": 35,\n  \"seconds\": 28\n }",
+    "answer_angle": "{\n  \"valid\": true,\n  \"hours\": 12,\n  \"minutes\": 30,\n  \"seconds\": 15\n }",
+    "answer_zone": "{\n  \"valid\": true,\n  \"hours\": 17,\n  \"minutes\": 25,\n  \"seconds\": 15\n }"
+  },
+  "white_2": {
+    "answer_time": "{\n  \"valid\": true,\n  \"hours\": 4,\n  \"minutes\": 6,\n  \"seconds\": 5,\n  \"date\": false,\n  \"month\": false,\n  \"weekday\": false\n }",
+    "answer_shift": "{\n  \"valid\": true,\n  \"hours\": 2,\n  \"minutes\": 46,\n  \"seconds\": 0\n }",
+    "answer_angle": "{\n  \"valid\": true,\n  \"hours\": 4,\n  \"minutes\": 6,\n  \"seconds\": 0,\n }",
+    "answer_zone": "{\n  \"valid\": true,\n  \"hours\": 9,\n  \"minutes\": 6,\n  \"seconds\": 5\n }"
+  },
+  "white_3": {
+    "answer_time": "{\n  \"valid\": true,\n  \"hours\": 8,\n  \"minutes\": 10,\n  \"seconds\": 15,\n  \"date\": false,\n  \"month\": false,\n  \"weekday\": false\n }",
+    "answer_shift": "{\n  \"valid\": true,\n  \"hours\": 18,\n  \"minutes\": 18,\n  \"seconds\": 20\n }",
+    "answer_angle": "{\n  \"valid\": true,\n  \"hours\": 8,\n  \"minutes\": 10,\n  \"seconds\": 25\n }",
+    "answer_zone": "{\n  \"valid\": true,\n  \"hours\": 14,\n  \"minutes\": 10,\n  \"seconds\": 15\n }"
+  },
+  "white_4": {
+    "answer_time": "{\n  \"valid\": true,\n  \"hours\": 6,\n  \"minutes\": 2,\n  \"seconds\": 30,\n  \"date\": false,\n  \"month\": false,\n  \"weekday\": false\n }",
+    "answer_shift": "{\n  \"valid\": true,\n  \"hours\": 0,\n  \"minutes\": 12,\n  \"seconds\": 30\n }",
+    "answer_angle": "{\n  \"valid\": true,\n  \"hours\": 6,\n  \"minutes\": 2,\n  \"seconds\": 20\n }",
+    "answer_zone": "{\n  \"valid\": true,\n  \"hours\": 13,\n  \"minutes\": 2,\n  \"seconds\": 30\n }"
+  },
+  "white_5": {
+    "answer_time": "{\n  \"valid\": false\n }",
+    "answer_shift": "{\n  \"valid\": false\n }",
+    "answer_angle": "{\n  \"valid\": false\n }",
+    "answer_zone": "{\n  \"valid\": false\n }"
+  },
+  "white_circular_numbers_1": {
+    "answer_time": "{\n  \"valid\": true,\n  \"hours\": 1,\n  \"minutes\": [4, 5],\n  \"seconds\": 45,\n  \"date\": false,\n  \"month\": false,\n  \"weekday\": false\n }",
+    "answer_shift": "{\n  \"valid\": true,\n  \"hours\": 16,\n  \"minutes\": [52, 53],\n  \"seconds\": 9\n }",
+    "answer_angle": "{\n  \"valid\": true,\n  \"hours\": 1,\n  \"minutes\": [5, 6],\n  \"seconds\": 0\n }",
+    "answer_zone": "{\n  \"valid\": true,\n  \"hours\": 10,\n  \"minutes\": [34, 35],\n  \"seconds\": 45\n }"
+  },
+  "white_circular_numbers_2": {
+    "answer_time": "{\n  \"valid\": true,\n  \"hours\": 5,\n  \"minutes\": 21,\n  \"seconds\": 0,\n  \"date\": false,\n  \"month\": false,\n  \"weekday\": false\n }",
+    "answer_shift": "{\n  \"valid\": true,\n  \"hours\": 6,\n  \"minutes\": 29,\n  \"seconds\": 5\n }",
+    "answer_angle": "{\n  \"valid\": true,\n  \"hours\": 5,\n  \"minutes\": 26,\n  \"seconds\": 0\n }",
+    "answer_zone": "{\n  \"valid\": true,\n  \"hours\": 17,\n  \"minutes\": 21,\n  \"seconds\": 0\n }"
+  },
+  "white_circular_numbers_3": {
+    "answer_time": "{\n  \"valid\": true,\n  \"hours\": 7,\n  \"minutes\": 31,\n  \"seconds\": 5,\n  \"date\": false,\n  \"month\": false,\n  \"weekday\": false\n }",
+    "answer_shift": "{\n  \"valid\": true,\n  \"hours\": 4,\n  \"minutes\": 26,\n  \"seconds\": 40\n }",
+    "answer_angle": "{\n  \"valid\": true,\n  \"hours\": 7,\n  \"minutes\": 31,\n  \"seconds\": 0\n }",
+    "answer_zone": "{\n  \"valid\": true,\n  \"hours\": 20,\n  \"minutes\": 31,\n  \"seconds\": 5\n }"
+  },
+  "white_circular_numbers_4": {
+    "answer_time": "{\n  \"valid\": true,\n  \"hours\": 8,\n  \"minutes\": 45,\n  \"seconds\": 11,\n  \"date\": false,\n  \"month\": false,\n  \"weekday\": false\n }",
+    "answer_shift": "{\n  \"valid\": true,\n  \"hours\": 14,\n  \"minutes\": 50,\n  \"seconds\": 56\n }",
+    "answer_angle": "{\n  \"valid\": true,\n  \"hours\": 8,\n  \"minutes\": 45,\n  \"seconds\": 21\n }",
+    "answer_zone": "{\n  \"valid\": true,\n  \"hours\": 22,\n  \"minutes\": 45,\n  \"seconds\": 11\n }"
+  },
+  "white_circular_numbers_5": {
+    "answer_time": "{\n  \"valid\": false\n }",
+    "answer_shift": "{\n  \"valid\": false\n }",
+    "answer_angle": "{\n  \"valid\": false\n }",
+    "answer_zone": "{\n  \"valid\": false\n }"
+  }
+}
