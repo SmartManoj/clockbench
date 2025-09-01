@@ -3,7 +3,7 @@ import json, requests, re, base64
 KEY = "YOUR_KEY" #Use your OpenRouter API Key
 MODEL = "MODEL" #Specify a model to test, such as "google/gemini-2.5-flash"
 DATASET_PATH = "input/input_sample.json"
-OUTPUT_PATH = "output/output_sample.json"
+OUTPUT_PATH = "output_sample.json"
 TIMEOUT = 120
 API = "https://openrouter.ai/api/v1/chat/completions"
 HEADERS = {"Authorization": f"Bearer {KEY}", "Content-Type": "application/json"}

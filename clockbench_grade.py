@@ -4,8 +4,8 @@ from statistics import median
 
 # --- Paths ---
 ANSWERS_PATH = "input/answers_sample.json"
-OUTPUTS_PATH = "output/output_sample.json"
-COMBINED_OUT = "grading/grading_sample.json"
+OUTPUTS_PATH = "output_sample.json"
+COMBINED_OUT = "grading_sample.json"
 
 # --- Follow grading order ---
 ORDER_BY = "answers"
