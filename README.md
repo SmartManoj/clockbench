@@ -9,8 +9,9 @@ Full dataset if intentionally kept private in order to data leaking into models 
 
 ## Setup Instructions
 
-```bash
 Install dependencies declared in pyproject.toml
+
+```bash
 pip install -e .
 ```
 The script depends on `requests`. If you prefer not to use `pip install -e .`, you can alternatively run `pip install requests` directly.
