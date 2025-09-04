@@ -5,7 +5,7 @@ ClockBench - Visual Reasoning AI Benchmark.
 https://clockbench.ai
 
 This is a public dataset that includes 10 clocks, out of 180 clocks available in the private dataset.
-Full dataset if intentionally kept private in order to data leaking into models training.
+Full dataset if intentionally kept private in order to avoid data leaking into models training.
 
 ## Setup Instructions
 
