@@ -1,12 +1,11 @@
 import json, requests, re, base64
-
-KEY = "YOUR_KEY" #Use your OpenRouter API Key
-MODEL = "MODEL" #Specify a model to test, such as "google/gemini-2.5-flash"
+import litellm
+import traceback
+import os
+MODEL = 'vertex_ai/gemini-2.5-pro'
 DATASET_PATH = "input/input_sample.json"
 OUTPUT_PATH = "output_sample.json"
 TIMEOUT = 120
-API = "https://openrouter.ai/api/v1/chat/completions"
-HEADERS = {"Authorization": f"Bearer {KEY}", "Content-Type": "application/json"}
 
 def try_json(s: str):
     s = s.strip()
@@ -16,8 +15,15 @@ def try_json(s: str):
         m = re.search(r"\{.*\}", s, flags = re.DOTALL)
         return (json.loads(m.group(0)), s) if m else (None, s)
 
-def post_chat(messages):
-    r = requests.post(API, headers = HEADERS, json = {"model": MODEL, "messages": messages}, timeout = TIMEOUT)
+def post_chat(messages, response_format=''):
+    # r = requests.post(API, headers = HEADERS, json = {"model": MODEL, "messages": messages}, timeout = TIMEOUT)
+    r = litellm.completion(
+        model=MODEL,
+        messages=messages,
+        seed=42,
+        temperature=0,
+        # response_format=response_format
+        )
     data = r.json()
     content = data["choices"][0]["message"]["content"]
     return content.strip(), data
@@ -82,12 +88,16 @@ for i, k in enumerate(ids, 1):
     try:
         res = ask_questions(dataset[k])
     except Exception as e:
+        traceback.print_exc()
         res = {"error": str(e)}
     results[k] = res
     print(f"[{i}] {k}", flush = True)
+    # break
 
 # --- Save output ---
 with open(OUTPUT_PATH, "w", encoding = "utf-8") as f:
     json.dump(results, f, ensure_ascii = False, indent = 2)
 
 print(f"\nAll done. Wrote output file: {OUTPUT_PATH} successfully.")
+from pymsgbox import alert
+alert('Evaluation complete')
